@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@300;500&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +8,7 @@
 
 body{
     color: black;
-    font-family: 'Gotham', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo{
@@ -34,7 +34,7 @@ body{
     margin: 0 9px;
     font-size: 14px;
     color: black;
-    font-weight: 800;
+    font-weight: 400;
     font-style: bold;
     /* border: red 1px solid; */
     /* border-radius: 25%; */
@@ -81,7 +81,7 @@ body{
 
 .head{
     font-size: 40px;
-    font-weight: 1400;
+    font-weight: 500;
     margin-bottom: 10px;
     animation: comeup 1s 1 1s;
 }
@@ -270,4 +270,5 @@ body{
     font-size: 12px;
     margin: 4px;
     text-decoration: none;
+    font-weight: 400;
 }
