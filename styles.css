@@ -1,0 +1,273 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    font-family: 'Gotham', sans-serif; 
+}
+
+.logo{
+    width: 120px;
+    height: 24px;
+}
+.nav{
+    /* border: blue 2px solid; */
+    padding: 25px 60px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    text-decoration: none;
+    margin: 0 9px;
+    font-size: 14px;
+    color: black;
+    font-weight: 800;
+    font-style: bold;
+    /* border: red 1px solid; */
+    /* border-radius: 25%; */
+    transition: all linear 0.3s;
+    cursor: pointer;
+    
+    
+}
+
+.info:hover {
+   font-size: larger;
+}
+
+
+.background-1{
+    background: url('./Images/M3-Homepage-Desktop-LHD.jfif');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+       
+}
+
+.center{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 40vh;
+    transform: translateY(-270px);
+}
+
+.heading-top{
+    /* border: 2px red solid; */
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+    margin: 150px auto;
+    
+
+}
+
+.head{
+    font-size: 40px;
+    font-weight: 1400;
+    margin-bottom: 10px;
+    animation: comeup 1s 1 1s;
+}
+
+.para{
+    font-size: 14px;
+    font-weight: 400;
+    animation: comeup 1s 1 1s;
+}
+
+
+@keyframes comeup {
+
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    25%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    50%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    75%{
+        opacity: 0.75;
+        transform: translateY(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+.underline{
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.underline:hover{
+    text-decoration-thickness: 2px;
+}
+
+.background-2{
+    background: url('./Images/Desktop-ModelY.jfif');
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-attachment: fixed; */
+
+}
+
+
+
+
+.buttons{
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   margin-top: 450px;
+}
+
+.btn{
+    font-size: 9px;
+    margin: 7px;
+    padding: 4px 24px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: transparent;
+}
+
+.btn-1{
+    
+    color: white;
+    background: #171A20CC;
+    transition: comeright 0.5s 1 ;
+   
+}
+
+.btn-2{
+    color: #393C41;
+    background: #F4F4F4A6;
+    transition: comeleft 0.5s 1 ;
+    
+}
+
+.btn-1:hover{
+    transform: scale(1.01);
+}
+
+.btn-2:hover{
+    transform: scale(1.01);
+}
+
+
+.background-3{
+    background: url('./Images/MS-Homepage-Desktop-LHD.jfif');
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.background-4{
+    background: url('./Images/MX-Homepage-Desktop-LHD.jfif');
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-attachment: fixed; */
+}
+.background-5{
+    background: url('./Images/_25-Hero-D.jfif');
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.background-6{
+    background: url('./Images/HP-SR-Design-D.jfif');
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-attachment: fixed; */
+}
+
+.background-7{
+    background: url('./Images/Desktop-Accessories\ \(1\).jfif');
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-attachment: fixed; */
+}
+
+.shop{
+    margin-top: 90px;
+    color: white;
+    background: #171A20CC;
+}
+
+
+.btn2{
+    /* margin-top: 5px; */
+    transform: translateY(60px);
+}
+
+.end{
+    display:flex;
+    justify-content: center;
+}
+
+.center-end{
+    display:flex;
+    justify-content: space-between;
+}
+
+.info-1{
+    color: #5C5E62;
+    font-size: 12px;
+    margin: 4px;
+    text-decoration: none;
+}
